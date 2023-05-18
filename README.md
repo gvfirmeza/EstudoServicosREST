@@ -55,3 +55,5 @@ Os recursos em uma REST são representados por URLs, que são compostas por conj
    **DAO** → (Data Access Object) é um padrão para aplicações que utilizam persistência de dados, onde tem a separação das regras de negócio das regras de acesso a banco de dados.
     
    **Bean Validation** → A validação de bean define um modelo de metadados e uma API para validação de JavaBean. A fonte de metadados são anotações, com a capacidade de substituir e estender os metadados por meio do uso de descritores de validação XML.
+   
+   **CORS** → É um mecanismo de segurança do navegador que impede solicitações de recursos de uma origem diferente (como domínios, portas ou protocolos diferentes).
