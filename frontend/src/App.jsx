@@ -137,7 +137,12 @@ const FuncDelete = () => {
       <label>CRM: </label>
       <input type="text" name="crm" value={createData.crm} onChange={handleCreateChange}></input><br />
       <label>Especialidade: </label>
-      <input type="text" name="especialidade" value={createData.especialidade} onChange={handleCreateChange}></input>
+      <select name="especialidade" value={createData.especialidade} onChange={handleCreateChange}>
+        <option value={"ORTOPEDIA"}>ORTOPEDIA</option>
+        <option value={"CARDIOLOGIA"}>CARDIOLOGIA</option>
+        <option value={"GINECOLOGIA"}>GINECOLOGIA</option>
+        <option value={"DERMATOLOGIA"}>DERMATOLOGIA</option>
+      </select>
       <button onClick={handleCreate}>Criar</button>
 
     </body>

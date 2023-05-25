@@ -18,6 +18,11 @@ input {
   padding: 0.4em;
 }
 
+select {
+  margin: 1em;
+  padding: 0.4em;
+}
+
 button {
   color: #282c34;
   background-color: white;
